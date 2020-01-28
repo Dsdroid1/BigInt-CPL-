@@ -392,19 +392,19 @@ void main()
     //Initialize(&LLimit);
     //ULimit=ULimitDefiner(3);
     //LLimit=LLimitDefiner();
-    Initialize(&a);
+    //Initialize(&a);
 
     //Initialize(&b);
-    a=Read("Enter 'a':");
+    //a=Read("Enter 'a':");
     //b=Read("\nEnter 'b':");
-    PrintBigInt(a);
+    //PrintBigInt(a);
     
     //PrintBigInt(n);
     //printf("Compare fn op:%d",Compare(a,b));
     //c=Multiply(a,b);
     //c=Overflow(c);
    // PrintBigInt(c);
-/*
+
     while(exit==0)
     {
         Initialize(&a);
@@ -441,6 +441,6 @@ void main()
                      break;
 
         }
-    }*/
+    }
 
 }
