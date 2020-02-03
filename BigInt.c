@@ -2,7 +2,7 @@
 #include<string.h>
 #define MAX_SIZE 309//309 digits required for 2^1024-1(1024 bit largest no.),found via (characteristic of log) + 1 
 //#define BIT_SIZE 1024
-
+//Using for swlab eval on git
 typedef enum {POSITIVE,NEGATIVE} Sign;
 typedef struct Bigint_type{
     int digits[MAX_SIZE];//Each element will hold a digit,from 0 to 9
